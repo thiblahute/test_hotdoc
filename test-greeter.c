@@ -132,6 +132,10 @@ translate_to_french (TestGreeter *greeter, const gchar *word)
  * Will greet whoever you want, you can specify a function
  * to translate the greetings.
  *
+ * {{includeme.markdown}}
+ *
+ * Just {{include something .markdown}} at the middle of a line
+ *
  * Since: 0.5
  */
 void
