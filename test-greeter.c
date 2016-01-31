@@ -136,6 +136,10 @@ translate_to_french (TestGreeter *greeter, const gchar *word)
  *
  * Just {{include something .markdown}} at the middle of a line
  *
+ * And here we have a C example included from a symbol name
+ *
+ * {{greeter_example.c#include_an_example_symbol[1:4][8:9]}}
+ *
  * Since: 0.5
  */
 void
