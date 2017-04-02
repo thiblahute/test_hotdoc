@@ -1,0 +1,1 @@
+fragment_downloaded_cb({"url": "c/test-greeter.html#parameters", "fragment": "foo \nsomething to foo \nbar \nsomething to bar \n"});

@@ -1,0 +1,1 @@
+fragment_downloaded_cb({"url": "c/test-greeter.html#test_greeter_do_foo_bar1", "fragment": "This function is here to test that out parameters are correctly interpreted as return values for python and javascript. \nThis function also checks that referring to signals that way greeted works correctly \n"});

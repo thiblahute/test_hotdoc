@@ -1,0 +1,1 @@
+fragment_downloaded_cb({"url": "python/test-greeter.html#page-description", "fragment": "This is just a function that we will mark as deprecated because it really sucked. \nMentioning Test.GreeterLanguage.english by the way THIS SHOULD NOT RAISE A WARNING Not linking here as we escape not a link \n"});

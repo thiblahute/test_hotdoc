@@ -1,0 +1,100 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE book PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<book xmlns="http://www.devhelp.net/book" title="HotdocTest 0.1" link="index.html" author="hotdoc" name="HotdocTest-0.1" version="2" language="C">
+  <chapters>
+    <sub link="sub/lol.html" name="Hello you !"/>
+    <sub link="yo/lol.html" name="And yo hello babe!"/>
+    <sub link="another-page.html" name="Just another page"/>
+    <sub link="c/gi-index.html" name="GObject API">
+      <sub link="c/test-other-file-h.html" name="Test another file"/>
+      <sub link="c/test-greeter.html" name="TestGreeter"/>
+      <sub link="c/test-gobject-macros.html" name="Derivable and more"/>
+      <sub link="c/test-interface.html" name="Test Interface"/>
+      <sub link="c/c_subfolder/test_subfolder.html" name="test_subfolder"/>
+    </sub>
+    <sub link="subproject.html" name="A simple subproject"/>
+  </chapters>
+  <functions>
+    <keyword link="c/test-other-file-h.html#test_bar_ze_bar" name="test_bar_ze_bar" type="function"/>
+    <keyword link="c/test-other-file-h.html#test_bar_ze_foo" name="test_bar_ze_foo" type="function"/>
+    <keyword link="python/test-other-file-h.html#test_bar_ze_bar" name="Test.bar_ze_bar" type="function"/>
+    <keyword link="python/test-other-file-h.html#test_bar_ze_foo" name="Test.bar_ze_foo" type="function"/>
+    <keyword link="javascript/test-other-file-h.html#test_bar_ze_bar" name="Test.prototype.bar_ze_bar" type="function"/>
+    <keyword link="javascript/test-other-file-h.html#test_bar_ze_foo" name="Test.prototype.bar_ze_foo" type="function"/>
+    <keyword link="c/test-greeter.html#TestGreeterCountUnit" name="TestGreeterCountUnit" type="alias"/>
+    <keyword link="c/test-greeter.html#TestGreeterThing" name="TestGreeterThing" type="alias"/>
+    <keyword link="c/test-greeter.html#test_greeter_do_foo_bar" name="test_greeter_do_foo_bar" type="function"/>
+    <keyword link="c/test-greeter.html#TestGreeter:::do_greet" name="do_greet" type="vfunc"/>
+    <keyword link="c/test-greeter.html#test_greeter_deprecated_function" name="test_greeter_deprecated_function" type="function"/>
+    <keyword link="c/test-greeter.html#test_greeter_get_translate_function" name="test_greeter_get_translate_function" type="function"/>
+    <keyword link="c/test-greeter.html#test_greeter_greet" name="test_greeter_greet" type="function"/>
+    <keyword link="c/test-greeter.html#TestGreeter:count-greets" name="count-greets" type="property"/>
+    <keyword link="c/test-greeter.html#TestGreeter::greeted" name="greeted" type="signal"/>
+    <keyword link="c/test-greeter.html#TestGreeter" name="TestGreeter" type="class"/>
+    <keyword link="c/test-greeter.html#TestGreeterClass" name="TestGreeterClass" type="struct"/>
+    <keyword link="c/test-greeter.html#TestGreeterLanguage" name="TestGreeterLanguage" type="enum"/>
+    <keyword link="c/test-greeter.html#TestGreeterTranslateFunction" name="TestGreeterTranslateFunction" type="function"/>
+    <keyword link="c/test-greeter.html#TestSomeStruct" name="TestSomeStruct" type="struct"/>
+    <keyword link="python/test-greeter.html#TestGreeterCountUnit" name="Test.GreeterCountUnit" type="alias"/>
+    <keyword link="python/test-greeter.html#TestGreeterThing" name="Test.GreeterThing" type="alias"/>
+    <keyword link="python/test-greeter.html#test_greeter_do_foo_bar" name="Test.Greeter.do_foo_bar" type="function"/>
+    <keyword link="python/test-greeter.html#TestGreeter:::do_greet" name="do_greet (not introspectable)" type="vfunc"/>
+    <keyword link="python/test-greeter.html#test_greeter_deprecated_function" name="Test.Greeter.deprecated_function" type="function"/>
+    <keyword link="python/test-greeter.html#test_greeter_get_translate_function" name="test_greeter_get_translate_function (not introspectable)" type="function"/>
+    <keyword link="python/test-greeter.html#test_greeter_greet" name="Test.Greeter.greet" type="function"/>
+    <keyword link="python/test-greeter.html#TestGreeter:count-greets" name="count-greets" type="property"/>
+    <keyword link="python/test-greeter.html#TestGreeter::greeted" name="greeted" type="signal"/>
+    <keyword link="python/test-greeter.html#TestGreeter" name="Test.Greeter" type="class"/>
+    <keyword link="python/test-greeter.html#TestGreeterClass" name="Test.GreeterClass" type="struct"/>
+    <keyword link="python/test-greeter.html#TestGreeterLanguage" name="Test.GreeterLanguage" type="enum"/>
+    <keyword link="python/test-greeter.html#TestGreeterTranslateFunction" name="Test.GreeterTranslateFunction" type="function"/>
+    <keyword link="python/test-greeter.html#TestSomeStruct" name="Test.SomeStruct" type="struct"/>
+    <keyword link="javascript/test-greeter.html#TestGreeterCountUnit" name="Test.GreeterCountUnit" type="alias"/>
+    <keyword link="javascript/test-greeter.html#TestGreeterThing" name="Test.GreeterThing" type="alias"/>
+    <keyword link="javascript/test-greeter.html#test_greeter_do_foo_bar" name="Test.Greeter.prototype.do_foo_bar" type="function"/>
+    <keyword link="javascript/test-greeter.html#TestGreeter:::do_greet" name="do_greet (not introspectable)" type="vfunc"/>
+    <keyword link="javascript/test-greeter.html#test_greeter_deprecated_function" name="Test.Greeter.prototype.deprecated_function" type="function"/>
+    <keyword link="javascript/test-greeter.html#test_greeter_get_translate_function" name="test_greeter_get_translate_function (not introspectable)" type="function"/>
+    <keyword link="javascript/test-greeter.html#test_greeter_greet" name="Test.Greeter.prototype.greet" type="function"/>
+    <keyword link="javascript/test-greeter.html#TestGreeter:count-greets" name="count-greets" type="property"/>
+    <keyword link="javascript/test-greeter.html#TestGreeter::greeted" name="greeted" type="signal"/>
+    <keyword link="javascript/test-greeter.html#TestGreeter" name="Test.Greeter" type="class"/>
+    <keyword link="javascript/test-greeter.html#TestGreeterClass" name="Test.GreeterClass" type="struct"/>
+    <keyword link="javascript/test-greeter.html#TestGreeterLanguage" name="Test.GreeterLanguage" type="enum"/>
+    <keyword link="javascript/test-greeter.html#TestGreeterTranslateFunction" name="Test.GreeterTranslateFunction" type="function"/>
+    <keyword link="javascript/test-greeter.html#TestSomeStruct" name="Test.SomeStruct" type="struct"/>
+    <keyword link="c/test-gobject-macros.html#test_derivable_new" name="test_derivable_new" type="function"/>
+    <keyword link="c/test-gobject-macros.html#TestDerivable" name="TestDerivable" type="class"/>
+    <keyword link="c/test-gobject-macros.html#TestDerivableClass" name="TestDerivableClass" type="struct"/>
+    <keyword link="c/test-gobject-macros.html#test_final_new" name="test_final_new" type="function"/>
+    <keyword link="c/test-gobject-macros.html#TestFinal" name="TestFinal" type="class"/>
+    <keyword link="c/test-gobject-macros.html#TestFinalClass" name="TestFinalClass" type="struct"/>
+    <keyword link="python/test-gobject-macros.html#test_derivable_new" name="Test.Derivable.new" type="function"/>
+    <keyword link="python/test-gobject-macros.html#TestDerivable" name="Test.Derivable" type="class"/>
+    <keyword link="python/test-gobject-macros.html#TestDerivableClass" name="Test.DerivableClass" type="struct"/>
+    <keyword link="python/test-gobject-macros.html#test_final_new" name="Test.Final.new" type="function"/>
+    <keyword link="python/test-gobject-macros.html#TestFinal" name="Test.Final" type="class"/>
+    <keyword link="python/test-gobject-macros.html#TestFinalClass" name="Test.FinalClass" type="struct"/>
+    <keyword link="javascript/test-gobject-macros.html#test_derivable_new" name="Test.Derivable.prototype.new" type="function"/>
+    <keyword link="javascript/test-gobject-macros.html#TestDerivable" name="Test.Derivable" type="class"/>
+    <keyword link="javascript/test-gobject-macros.html#TestDerivableClass" name="Test.DerivableClass" type="struct"/>
+    <keyword link="javascript/test-gobject-macros.html#test_final_new" name="Test.Final.prototype.new" type="function"/>
+    <keyword link="javascript/test-gobject-macros.html#TestFinal" name="Test.Final" type="class"/>
+    <keyword link="javascript/test-gobject-macros.html#TestFinalClass" name="Test.FinalClass" type="struct"/>
+    <keyword link="c/test-interface.html#TestInterface:::do_something" name="do_something" type="vfunc"/>
+    <keyword link="c/test-interface.html#test_interface_do_something" name="test_interface_do_something" type="function"/>
+    <keyword link="c/test-interface.html#TestInterface" name="TestInterface" type="interface"/>
+    <keyword link="c/test-interface.html#TestInterfaceInterface" name="TestInterfaceInterface" type="struct"/>
+    <keyword link="python/test-interface.html#TestInterface:::do_something" name="do_something" type="vfunc"/>
+    <keyword link="python/test-interface.html#test_interface_do_something" name="Test.Interface.do_something" type="function"/>
+    <keyword link="python/test-interface.html#TestInterface" name="Test.Interface" type="interface"/>
+    <keyword link="python/test-interface.html#TestInterfaceInterface" name="Test.InterfaceInterface" type="struct"/>
+    <keyword link="javascript/test-interface.html#TestInterface:::do_something" name="do_something" type="vfunc"/>
+    <keyword link="javascript/test-interface.html#test_interface_do_something" name="Test.Interface.prototype.do_something" type="function"/>
+    <keyword link="javascript/test-interface.html#TestInterface" name="Test.Interface" type="interface"/>
+    <keyword link="javascript/test-interface.html#TestInterfaceInterface" name="Test.InterfaceInterface" type="struct"/>
+    <keyword link="c/c_subfolder/c_subfolder/test_subfolder.html#test_c_function_in_subfolder" name="test_c_function_in_subfolder" type="function"/>
+    <keyword link="python/c_subfolder/c_subfolder/test_subfolder.html#test_c_function_in_subfolder" name="Test.c_function_in_subfolder" type="function"/>
+    <keyword link="javascript/c_subfolder/c_subfolder/test_subfolder.html#test_c_function_in_subfolder" name="Test.prototype.c_function_in_subfolder" type="function"/>
+  </functions>
+</book>
