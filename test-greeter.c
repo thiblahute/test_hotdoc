@@ -7,6 +7,8 @@ TestGreeterCountUnit test_greeter_greet_count = 0;
  * @title: TestGreeter
  * @short_description: a *short* description
  *
+ * {{ broken-link.md }}
+ *
  * This is a module to greet people.
  * Linking to #TestGreeter:count-greets
  * Linking to #TestInterfaceInterface.do_something
